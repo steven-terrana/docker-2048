@@ -1,10 +1,8 @@
-FROM alpine:latest
+FROM nginx
 
 MAINTAINER alex <alexwhen@gmail.com> 
 
-RUN apk --update add nginx
-
-COPY 2048 /usr/share/nginx/html
+COPY 2048 /usr/share/nginx/html/2048
 
 EXPOSE 80
 
