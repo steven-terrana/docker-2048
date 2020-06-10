@@ -36,8 +36,8 @@ Base on nginx
 
 # Access the game
 
-    http://127.0.0.1:8080
+    http://127.0.0.1:8080/2048
 
 If you run docker with boot2docker on Mac or Windows, the URL should be:
  
-    http://192.168.59.103:8080
+    http://192.168.59.103:8080/2048
